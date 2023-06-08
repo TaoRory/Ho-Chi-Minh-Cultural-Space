@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Tinos&display=swap');
+body
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin: 0;
+	background-color: white
+}
+h1,h2
+{
+	font-family: 'Tinos', serif;
+	color: #056CB6;
+}
+h1{ font-size: 36px}
+h2{ font-size: 30px}
+h3{ font-size: 24px}
+p{ line-height: 1.5rem; margin-top: 0}
+ul li{ padding: 5px}
+h1,h2,h3,h4{ margin-top: 0}
+.container{ width: 80%; margin: auto}
+
+*{
+	box-sizing: border-box
+}
+.row{ display: flex; flex-wrap: wrap}
+.col-1{ width: 8.33%}
+.col-2{ width: 16.66%}
+.col-3{ width: 25%}
+.col-4{ width: 33.33%}
+.col-5{ width: 41.66%}
+.col-6{ width: 50%}
+.col-7{ width: 58.33%}
+.col-8{ width:66.66%}
+.col-9{ width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%}
+
+[class*="col-"]
+{
+	padding: 15px;
+	/*border: 1px solid red*/
+}
+/*---- canh giữa/chia các phần/ trái/ phải/ các cột trong row/flex theo chiều ngang*/
+.d-flex{ display: flex}
+	.justify-center{ justify-content: center}
+	.justify-around{ justify-content: space-around}
+	.justify-between{ justify-content:space-between}
+	.justify-start{ justify-content:flex-start}
+	.justify-end{ justify-content: flex-end}
+
+.align-items-center{ align-items: center}
+/*--- canh algin text ----*/
+.text-right{ text-align: right}
+.text-center{ text-align: center}
+.text-jutify{ text-align: justify}
+.text-left{ text-align: left}
+/*--- thư viện color----*/
+.text-blue { color: #00a3e4}
+.text-light{ color: #eee}
+.text-primary { color: #056CB6}
+.bg-primary{ background-color: #056CB6;}
+.btn-primary{ background-color:#056CB6; color:white; padding: 10px ; border: none; border-radius: 5px; cursor: pointer}
+.btn-primary:hover{ background-color: #F2C94C}
+/*----------------- mau phu-------------*/
+.text-secondary { color:#F2C94C}
+.bg-secondary { background-color: #00a3e4; }
+.btn-secondary{
+	background-color:#F2C94C; 
+	color:white; padding:10px ; 
+	border: none;
+	border-radius: 5px;
+	cursor: pointer
+}
+.btn-secondary:hover{ background-color: #00a3e4}
+.bg-white{ background-color: #fff}
+/*----------- spacing-style---------*/
+.ml-5{margin-left: 5px}
+.ml-10{margin-left: 10px}
+.ml-20{margin-left: 20px}
+.ml-50{margin-left: 50px}
+.ml-100{margin-left: 100px}
+.ml-200{margin-left: 200px}
+.ml-220{margin-left: 220px}
+.ml-250{margin-left: 250px}
+.ml-280{margin-left: 280px}
+.ml-300{margin-left: 300px}
+.ml-400{margin-left: 400px}
+.ml-600{margin-left: 600px}
+.mr-5{margin-right: 5px}
+.mr-10{ margin-right: 10px}
+.mr-20{ margin-right: 20px}
+.mr-50{margin-right: 50px}
+.mr-500{ margin-right: 500px}
+.mt-10{ margin-top: 10px}
+.mt-20{ margin-top: 20px}
+.mt-35{ margin-top: 35px}
+.mt-50{ margin-top: 50px}
+.mb-10{ margin-bottom:  10px}
+.mb-20{ margin-bottom:  20px}
+.mb-30{ margin-bottom:  30px}
+.mb-40{ margin-bottom:  40px}
+.mb-50{ margin-bottom:  50px}
+.mx-auto{ margin-left: auto; margin-right: auto}
+.p-0{padding: 0}
+.py-10{ padding-top: 10px; padding-bottom: 10px}
+.py-50{ padding-top: 50px; padding-bottom: 50px}
+.px-10{ padding-left: 10px; padding-right: 10px}
+.p-20{ padding: 20px}
+.p-5{ padding: 5px}
+/*-------style cho img-------------*/
+.img-100{ width: 100%; height: auto}
+.img-200{ width: 200%; height: auto}
+.img-400{ width: 400%; height: auto}
+.img-circle{ border-radius: 50%}
+.img-circle-10{ border-radius: 10px}
+
+
+
+
